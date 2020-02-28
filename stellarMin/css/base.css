@@ -112,15 +112,6 @@ sup {
   top: -0.5em;
 }
 
-audio,
-video {
-  display: inline-block;
-}
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
 
 img {
   border-style: none;
@@ -345,8 +336,8 @@ a img {
  *
  * ------------------------------------------------------------------- */
 .row {
-  width: 89%;
-  max-width: 1200px;
+  width: 95%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -440,7 +431,7 @@ a img {
 /* ------------------------------------------------------------------- 
  * ## medium size devices
  * ------------------------------------------------------------------- */
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1400px) {
   .row .row {
     margin-left: -15px;
     margin-right: -15px;

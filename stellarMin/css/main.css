@@ -186,33 +186,6 @@ var, kbd, samp, code, pre {
   font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
-pre {
-  padding: 2.4rem 3rem 3rem;
-  background: #F1F1F1;
-  overflow-x: auto;
-}
-
-code {
-  font-size: 1.4rem;
-  margin: 0 .2rem;
-  padding: .3rem .6rem;
-  white-space: nowrap;
-  background: #F1F1F1;
-  border: 1px solid #E1E1E1;
-  border-radius: 3px;
-}
-
-pre > code {
-  display: block;
-  white-space: pre;
-  line-height: 2;
-  padding: 0;
-  margin: 0;
-}
-
-pre.prettyprint > code {
-  border: none;
-}
 
 del {
   text-decoration: line-through;
@@ -358,51 +331,6 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-
-/* ------------------------------------------------------------------- 
- * ## alert box
- * ------------------------------------------------------------------- */
-.alert-box {
-  padding: 2.1rem 4rem 2.1rem 3rem;
-  position: relative;
-  margin-bottom: 3rem;
-  border-radius: 3px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 1.6;
-}
-
-.alert-box__close {
-  position: absolute;
-  right: 1.8rem;
-  top: 1.8rem;
-  cursor: pointer;
-}
-
-.alert-box__close.fa {
-  font-size: 12px;
-}
-
-.alert-box--error {
-  background-color: #ffd1d2;
-  color: #e65153;
-}
-
-.alert-box--success {
-  background-color: #c8e675;
-  color: #758c36;
-}
-
-.alert-box--info {
-  background-color: #d7ecfb;
-  color: #4a95cc;
-}
-
-.alert-box--notice {
-  background-color: #fff099;
-  color: #bba31b;
-}
 
 /* ------------------------------------------------------------------- 
  * ## display headings
@@ -978,7 +906,7 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .6;
+  opacity: .5;
   background-color: #000000;
 }
 
@@ -1281,28 +1209,6 @@ html.no-csstransitions .home-content__main {
   .home-content__video {
     display: inline-block;
     vertical-align: top;
-  }
-
-  .home-content__video {
-    position: static;
-    margin-top: 6rem;
-    margin-left: 6rem;
-    height: 6.6rem;
-    line-height: 6.6rem;
-  }
-
-  .home-content__video .video-link {
-    padding-left: 9rem;
-    width: auto;
-  }
-
-  .home-content__video .video-icon {
-    height: 6.6rem;
-    width: 6.6rem;
-    background-size: 12px 13px;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 
 }
